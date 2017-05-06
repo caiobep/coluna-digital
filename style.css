@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+
 body {
   font-family: 'Roboto Slab';
+  -webkit-font-smoothing: antialiased;
+  color:#66696a;
 }
 
 h1 {
@@ -8,6 +12,8 @@ h1 {
   text-align: center;
   margin: 0;
   margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
 .nav {
@@ -16,16 +22,17 @@ h1 {
 }
 
 .nav ul {
-  width: 50vh;
+  width: fit-content; 
   list-style: none;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding:0;
 }
 
 .nav ul li{
   display: inline-block;
-  margin:0 10%;
+  margin: 0 45px;
 }
 
 .line {
@@ -33,15 +40,29 @@ h1 {
   height: 1px;
   margin-left: auto;
   margin-right: auto;
-  background-color:rgb(136, 136, 136);
+  background-color:#66696a;
+}
+
+.material-icons {
+  font-size: 20px;
+  transition: .3s ease-in-out;
+  color:#66696a;
+}
+
+.material-icons:hover {
+  font-size:40px;
+  color:rgb(60, 138, 255);
 }
 
 .event {
-  margin: 50px 20px;
+  margin: 50px 60px;
+  color: #757575;
+  font-weight: 300;
 }
+
+
 .event-title {
   text-transform: capitalize;
-  font-weight: bolder;
-  font-size: 1.5em;
-  
+  font-weight: 600;
+  font-size: 3em;
 }
