@@ -1,0 +1,47 @@
+body {
+  font-family: 'Roboto Slab';
+}
+
+h1 {
+  font-style: bold;
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.nav {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.nav ul {
+  width: 50vh;
+  list-style: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav ul li{
+  display: inline-block;
+  margin:0 10%;
+}
+
+.line {
+  width: 90%;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgb(136, 136, 136);
+}
+
+.event {
+  margin: 50px 20px;
+}
+.event-title {
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 1.5em;
+  
+}
